@@ -72,18 +72,15 @@ is_valid = mfa.verify_otp(otp)
 if is_valid:
     print("OTP code is valid!")
 else:
-    print("OTP code is not valid.")</code>
+    print("OTP code is not valid.")
+    </code>
 
 
 <p>How to use Password-hash:</p>
-<code>from hashpassword import HashPassword
-
+<code>from stronger.password_hash import HashPassword
 hp = HashPassword()
-
 hashed_password, salt = hp.hash_password('my_password')
-
 result = hp.verify_password('my_password', salt, hashed_password)
-
 if result:
     print("Password is valid.")
 else:
