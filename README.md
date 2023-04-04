@@ -34,7 +34,6 @@ print(f"Generated password: {password}")
 
 <p>How to use Strength-checker:</p>
 <code>from stronger.strength_checker import check_strength
-
 password = "MySecurePassword123"
 strength = your_package_name.check_strength(password)
 
