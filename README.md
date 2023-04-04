@@ -73,7 +73,7 @@ if is_valid:
     print("OTP code is valid!")
 else:
     print("OTP code is not valid.")
-    </code>
+</code>
 
 
 <p>How to use Password-hash:</p>
