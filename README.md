@@ -44,7 +44,7 @@ else:
 </code>
 
 <p>How to use Suggest-improvements:</p>
-<code>from stronger import check_strength
+<code>from stronger.suggest_improvements import improvements_suggest
 
 password = "MyPassw0rd"
 strength = check_strength(password)
