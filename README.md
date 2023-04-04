@@ -65,14 +65,10 @@ if result != True:
 
 
 <p>How to use Multi-factor-authentication:</p>
-<code>import my_package
-
+<code>from stronger.multi_factor_authetication import MultiFactorAuth
 mfa = my_package.MultiFactorAuth()
-
 otp = mfa.generate_otp()
-
 is_valid = mfa.verify_otp(otp)
-
 if is_valid:
     print("OTP code is valid!")
 else:
