@@ -55,7 +55,7 @@ else:
 
 
 <p>How to use Breacher-password:</p>
-<code>from stronger import password_breached
+<code>from stronger.breached_password import password_breached
 
 password = "MySecurePassword123"
 result = password_breached(password)
