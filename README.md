@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Stronger</title>
 </head>
 <body>
 <h1>Stronger</h1>
@@ -28,7 +27,6 @@
 <p>How to use Password-generation:</p>
 <code>from stronger.password_generator import generate_password
 
-# Example usage of generate_password function
 sentence = "Im Benny and i like pizza"
 password = generate_password(sentence)
 print(f"Generated password: {password}")
@@ -70,13 +68,10 @@ if result != True:
 <p>How to use Multi-factor-authentication:</p>
 <code>import my_package
 
-# Create a new instance of the MultiFactorAuth class with a random secret key
 mfa = my_package.MultiFactorAuth()
 
-# Generate an OTP (one-time password) code
 otp = mfa.generate_otp()
 
-# Verify the OTP code
 is_valid = mfa.verify_otp(otp)
 
 if is_valid:
@@ -89,13 +84,10 @@ else:
 <p>How to use Password-hash:</p>
 <code>from hashpassword import HashPassword
 
-# Create an instance of the HashPassword class
 hp = HashPassword()
 
-# Hash the password
 hashed_password, salt = hp.hash_password('my_password')
 
-# Verify the password
 result = hp.verify_password('my_password', salt, hashed_password)
 
 if result:

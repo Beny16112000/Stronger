@@ -10,7 +10,7 @@ setup(
     description='A package for password security',
     author='Benjamin Shtainberg',
     author_email='benny132001@gmail.com',
-    url='', #
+    url='https://github.com/Beny16112000/Stronger',
     packages=find_packages(),
     classifiers=[
         'Development Status :: 3 - Alpha',
@@ -23,6 +23,8 @@ setup(
         'Programming Language :: Python :: 3.9',    
     ],
     install_requires=[
+        'dependency1',
+        'dependency2',
         'pyotp',
     ],
 )
