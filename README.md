@@ -1,9 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-</head>
-<body>
 <h1>Stronger</h1>
 <p>This package provides several features related to password to your application.</p>
 
@@ -94,5 +89,4 @@ else:
 
 <h2>License</h2>
 <p>This project is licensed under the MIT License.</p>
-</body>
-</html>
+

@@ -1,17 +1,24 @@
-from setuptools import setup, find_packages
+import setuptools
 
 
 # Setup
 
 
-setup(
-    name='stronger',
-    version='0.1.0',
+with open("README.md", "r", encoding = "utf-8") as fh:
+    long_description = fh.read()
+
+
+
+setuptools.setup(
+    name='Stronger',
+    version='0.0.2',
     description='A package for password security',
+    long_description=long_description,
+    long_description_content_type = "text/markdown",
     author='Benjamin Shtainberg',
     author_email='benny132001@gmail.com',
     url='https://github.com/Beny16112000/Stronger',
-    packages=find_packages(),
+    packages= setuptools.find_packages(),
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
@@ -23,8 +30,6 @@ setup(
         'Programming Language :: Python :: 3.9',    
     ],
     install_requires=[
-        'dependency1',
-        'dependency2',
         'pyotp',
     ],
 )
